@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSA</title>
+  <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+    <img src="img/logo GSA.png" alt="Logo AgroEmpresa">
+  </div>
+    <nav>
+      <a href="#marcas">Marcas</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Soluciones calificadas para la agricultura</h1>
+ 
+    <!-- GALERÍA DE MARCAS -->
+<section id= "marcas" class="marcas">
+    <h2>Marcas</h2>
+  <div class="logos-marcas">
+    <img src="img/logoVanIperen.png" alt="Marca 1">
+    <img src="img/logoBRQ.png" alt="Marca 2">
+    <img src="img/logoALZ.png" alt="Marca 3">
+  </div>
+</section>
+   <section id= "clientes" class="clientes">
+      <h2>Clientes</h2>
+  <div class="logos-marcas">
+    <img src="img/logoCoop.png" alt="cliente 1">
+    <img src="img/logoLuis.png" alt="cliente 2">
+    <img src="img/coop-la-paz.png" alt="cliente 3">
+  </div>
+</section>
+    <a href="#productos" class="btn">Ver Productos</a>
+      <div class="catalogo">
+    <a href="docs/catalogo.pdf" download class="btn btn-catalogo">  <!-- ACA SE CARGA EL CATALOGO-->
+      Descargar Catálogo
+    </a>
+  </div>
+  </section>
+
+  <!-- GALERÍA DE PRODUCTOS -->
+  <section id="productos" class="productos">
+    
+    <h2>Nuestros Productos</h2>
+    <div class="galeria">
+      <!-- Producto individual -->
+      <div class="producto">
+        <img src="img/productos/01.png" alt="Producto 1">
+        <h3>Van Iperen Sulfato de Potasio (SOP) </h3>
+        <button id="ver-detalles" class="ver-detalles">ver detalles</button>
+      </div>
+      <div class="producto">
+        <img src="img/productos/02.png" alt="Producto 2">
+        <h3>Sulfato de Amonio </h3>
+        <button id="ver-detalles" class="ver-detalles">ver detalles</button>
+      </div>
+      <!-- Copia este bloque para más productos -->
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+     <div class="contacto-botones">
+    <a href="mailto:info@agroempresa.com" class="btn"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+5491112345678" class="btn"><i class="fas fa-phone"></i></a>
+    <a href="https://wa.me/5491112345678" target="_blank" class="btn"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+
+    <!-- FORMULARIO -->
+      <p>O puedes escribirnos a través del formulario de contacto</p>
+    
+    <form class="formulario-contacto" action="mailto:info@agroempresa.com" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu Nombre" required>
+      <input type="email" name="email" placeholder="Tu Correo" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit" class="btn">Enviar Mensaje</button>
+    </form>
+  </section>
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<div class="whatsapp-container">
+  <div class="whatsapp-msg">¿Cómo podemos ayudarte?</div>
+  <a href="https://wa.me/5491112345678" 
+     class="whatsapp-float" 
+     target="_blank">
+     <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 GSA Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
